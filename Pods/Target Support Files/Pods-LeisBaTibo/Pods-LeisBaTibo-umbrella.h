@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_TodoeyVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_TodoeyVersionString[];
+FOUNDATION_EXPORT double Pods_LeisBaTiboVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_LeisBaTiboVersionString[];
 

@@ -7,28 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC7967F5767FF81DDAAF87C2 /* Pods_LeisBaTibo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C769E94E78EA005522473C94 /* Pods_LeisBaTibo.framework */; };
+		CA386B3E2471EB6E00D21648 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA386B3D2471EB6E00D21648 /* CategoryViewController.swift */; };
+		CA386B402471EBA400D21648 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA386B3F2471EBA400D21648 /* Data.swift */; };
 		CA566F9B2470D82B00CDB03A /* PopOverShoppingItemForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA566F9A2470D82B00CDB03A /* PopOverShoppingItemForm.swift */; };
 		CA61E28F2469F24400B1BD2A /* ListByStoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA61E28E2469F24400B1BD2A /* ListByStoreViewController.swift */; };
 		CA9A7BF4246E2D4000B42D42 /* CompletedItemsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9A7BF3246E2D4000B42D42 /* CompletedItemsData.swift */; };
-		CA9B39C42467E2E200385941 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9B39C32467E2E200385941 /* CategoryViewController.swift */; };
-		CA9B39C62467E93B00385941 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9B39C52467E93B00385941 /* Data.swift */; };
 		EB2BE4FA239524DB00FB933B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2BE4F9239524DB00FB933B /* AppDelegate.swift */; };
 		EB2BE4FE239524DB00FB933B /* ToDoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2BE4FD239524DB00FB933B /* ToDoListViewController.swift */; };
 		EB2BE501239524DB00FB933B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB2BE4FF239524DB00FB933B /* Main.storyboard */; };
 		EB2BE503239524DC00FB933B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB2BE502239524DC00FB933B /* Assets.xcassets */; };
 		EB2BE506239524DC00FB933B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB2BE504239524DC00FB933B /* LaunchScreen.storyboard */; };
-		F543032AE578BBDBD4F4E762 /* Pods_Todoey.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5110146FA307111D887277F /* Pods_Todoey.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		311BBEB90F6C6FAE31D95B4D /* Pods-LeisBaTibo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeisBaTibo.release.xcconfig"; path = "Target Support Files/Pods-LeisBaTibo/Pods-LeisBaTibo.release.xcconfig"; sourceTree = "<group>"; };
+		5987784D68A54741FDA0C0D6 /* Pods-LeisBaTibo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeisBaTibo.debug.xcconfig"; path = "Target Support Files/Pods-LeisBaTibo/Pods-LeisBaTibo.debug.xcconfig"; sourceTree = "<group>"; };
+		C769E94E78EA005522473C94 /* Pods_LeisBaTibo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LeisBaTibo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA386B3D2471EB6E00D21648 /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CategoryViewController.swift; path = LeisBaTibo/Controllers/CategoryViewController.swift; sourceTree = "<group>"; };
+		CA386B3F2471EBA400D21648 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Data.swift; path = "LeisBaTibo/Data Model/Data.swift"; sourceTree = "<group>"; };
 		CA566F9A2470D82B00CDB03A /* PopOverShoppingItemForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopOverShoppingItemForm.swift; sourceTree = "<group>"; };
 		CA61E28E2469F24400B1BD2A /* ListByStoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListByStoreViewController.swift; sourceTree = "<group>"; };
 		CA9A7BF3246E2D4000B42D42 /* CompletedItemsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompletedItemsData.swift; sourceTree = "<group>"; };
 		CA9B39C32467E2E200385941 /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CategoryViewController.swift; path = Todoey/Controllers/CategoryViewController.swift; sourceTree = SOURCE_ROOT; };
 		CA9B39C52467E93B00385941 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Data.swift; path = "Todoey/Data Model/Data.swift"; sourceTree = SOURCE_ROOT; };
 		E014F2C27DDECD1C524557D1 /* Pods-Todoey.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Todoey.debug.xcconfig"; path = "Target Support Files/Pods-Todoey/Pods-Todoey.debug.xcconfig"; sourceTree = "<group>"; };
-		E5110146FA307111D887277F /* Pods_Todoey.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Todoey.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EB2BE4F6239524DB00FB933B /* Todoey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Todoey.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB2BE4F6239524DB00FB933B /* LeisBaTibo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeisBaTibo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB2BE4F9239524DB00FB933B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EB2BE4FD239524DB00FB933B /* ToDoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListViewController.swift; sourceTree = "<group>"; };
 		EB2BE500239524DB00FB933B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -43,7 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F543032AE578BBDBD4F4E762 /* Pods_Todoey.framework in Frameworks */,
+				AC7967F5767FF81DDAAF87C2 /* Pods_LeisBaTibo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,7 +57,7 @@
 		6E620D0EC14FE75288A4B1CB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E5110146FA307111D887277F /* Pods_Todoey.framework */,
+				C769E94E78EA005522473C94 /* Pods_LeisBaTibo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -63,6 +67,8 @@
 			children = (
 				E014F2C27DDECD1C524557D1 /* Pods-Todoey.debug.xcconfig */,
 				F52F2976B292ADE416EBA777 /* Pods-Todoey.release.xcconfig */,
+				5987784D68A54741FDA0C0D6 /* Pods-LeisBaTibo.debug.xcconfig */,
+				311BBEB90F6C6FAE31D95B4D /* Pods-LeisBaTibo.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -98,7 +104,9 @@
 		EB2BE4ED239524DB00FB933B = {
 			isa = PBXGroup;
 			children = (
-				EB2BE4F8239524DB00FB933B /* Todoey */,
+				CA386B3F2471EBA400D21648 /* Data.swift */,
+				CA386B3D2471EB6E00D21648 /* CategoryViewController.swift */,
+				EB2BE4F8239524DB00FB933B /* LeisBatibo */,
 				EB2BE4F7239524DB00FB933B /* Products */,
 				99C1236708C1CBEDEFD8C538 /* Pods */,
 				6E620D0EC14FE75288A4B1CB /* Frameworks */,
@@ -108,12 +116,12 @@
 		EB2BE4F7239524DB00FB933B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EB2BE4F6239524DB00FB933B /* Todoey.app */,
+				EB2BE4F6239524DB00FB933B /* LeisBaTibo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EB2BE4F8239524DB00FB933B /* Todoey */ = {
+		EB2BE4F8239524DB00FB933B /* LeisBatibo */ = {
 			isa = PBXGroup;
 			children = (
 				EB2BE4F9239524DB00FB933B /* AppDelegate.swift */,
@@ -124,15 +132,15 @@
 				EB2BE504239524DC00FB933B /* LaunchScreen.storyboard */,
 				EB2BE507239524DC00FB933B /* Info.plist */,
 			);
-			path = Todoey;
+			path = LeisBatibo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EB2BE4F5239524DB00FB933B /* Todoey */ = {
+		EB2BE4F5239524DB00FB933B /* LeisBaTibo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EB2BE50A239524DC00FB933B /* Build configuration list for PBXNativeTarget "Todoey" */;
+			buildConfigurationList = EB2BE50A239524DC00FB933B /* Build configuration list for PBXNativeTarget "LeisBaTibo" */;
 			buildPhases = (
 				1A1D9260EF194E8E20B26B79 /* [CP] Check Pods Manifest.lock */,
 				EB2BE4F2239524DB00FB933B /* Sources */,
@@ -144,9 +152,9 @@
 			);
 			dependencies = (
 			);
-			name = Todoey;
+			name = LeisBaTibo;
 			productName = Todoey;
-			productReference = EB2BE4F6239524DB00FB933B /* Todoey.app */;
+			productReference = EB2BE4F6239524DB00FB933B /* LeisBaTibo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -164,7 +172,7 @@
 					};
 				};
 			};
-			buildConfigurationList = EB2BE4F1239524DB00FB933B /* Build configuration list for PBXProject "Todoey" */;
+			buildConfigurationList = EB2BE4F1239524DB00FB933B /* Build configuration list for PBXProject "LeisBaTibo" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -177,7 +185,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EB2BE4F5239524DB00FB933B /* Todoey */,
+				EB2BE4F5239524DB00FB933B /* LeisBaTibo */,
 			);
 		};
 /* End PBXProject section */
@@ -211,7 +219,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Todoey-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-LeisBaTibo-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -224,15 +232,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Todoey/Pods-Todoey-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-LeisBaTibo/Pods-LeisBaTibo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Todoey/Pods-Todoey-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-LeisBaTibo/Pods-LeisBaTibo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Todoey/Pods-Todoey-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LeisBaTibo/Pods-LeisBaTibo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -242,9 +250,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA386B402471EBA400D21648 /* Data.swift in Sources */,
+				CA386B3E2471EB6E00D21648 /* CategoryViewController.swift in Sources */,
 				CA9A7BF4246E2D4000B42D42 /* CompletedItemsData.swift in Sources */,
-				CA9B39C42467E2E200385941 /* CategoryViewController.swift in Sources */,
-				CA9B39C62467E93B00385941 /* Data.swift in Sources */,
 				CA566F9B2470D82B00CDB03A /* PopOverShoppingItemForm.swift in Sources */,
 				EB2BE4FE239524DB00FB933B /* ToDoListViewController.swift in Sources */,
 				EB2BE4FA239524DB00FB933B /* AppDelegate.swift in Sources */,
@@ -390,18 +398,18 @@
 		};
 		EB2BE50B239524DC00FB933B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E014F2C27DDECD1C524557D1 /* Pods-Todoey.debug.xcconfig */;
+			baseConfigurationReference = 5987784D68A54741FDA0C0D6 /* Pods-LeisBaTibo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = U6A23LW3NA;
-				INFOPLIST_FILE = Todoey/Info.plist;
+				DEVELOPMENT_TEAM = 5SCCSQAW85;
+				INFOPLIST_FILE = LeisBaTibo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.noy.todoey-ios13.Todoey";
+				PRODUCT_BUNDLE_IDENTIFIER = com.noy.LeisBaTibo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -410,18 +418,18 @@
 		};
 		EB2BE50C239524DC00FB933B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F52F2976B292ADE416EBA777 /* Pods-Todoey.release.xcconfig */;
+			baseConfigurationReference = 311BBEB90F6C6FAE31D95B4D /* Pods-LeisBaTibo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = U6A23LW3NA;
-				INFOPLIST_FILE = Todoey/Info.plist;
+				DEVELOPMENT_TEAM = 5SCCSQAW85;
+				INFOPLIST_FILE = LeisBaTibo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.noy.todoey-ios13.Todoey";
+				PRODUCT_BUNDLE_IDENTIFIER = com.noy.LeisBaTibo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -431,7 +439,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EB2BE4F1239524DB00FB933B /* Build configuration list for PBXProject "Todoey" */ = {
+		EB2BE4F1239524DB00FB933B /* Build configuration list for PBXProject "LeisBaTibo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EB2BE508239524DC00FB933B /* Debug */,
@@ -440,7 +448,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EB2BE50A239524DC00FB933B /* Build configuration list for PBXNativeTarget "Todoey" */ = {
+		EB2BE50A239524DC00FB933B /* Build configuration list for PBXNativeTarget "LeisBaTibo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EB2BE50B239524DC00FB933B /* Debug */,

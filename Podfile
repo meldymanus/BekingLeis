@@ -1,6 +1,6 @@
 platform :ios, '9.0'
 
-target 'Todoey' do
+target 'LeisBaTibo' do
   
   use_frameworks!
 
