@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA566F9B2470D82B00CDB03A /* PopOverShoppingItemForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA566F9A2470D82B00CDB03A /* PopOverShoppingItemForm.swift */; };
 		CA61E28F2469F24400B1BD2A /* ListByStoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA61E28E2469F24400B1BD2A /* ListByStoreViewController.swift */; };
 		CA9A7BF4246E2D4000B42D42 /* CompletedItemsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9A7BF3246E2D4000B42D42 /* CompletedItemsData.swift */; };
 		CA9B39C42467E2E200385941 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9B39C32467E2E200385941 /* CategoryViewController.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CA566F9A2470D82B00CDB03A /* PopOverShoppingItemForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopOverShoppingItemForm.swift; sourceTree = "<group>"; };
 		CA61E28E2469F24400B1BD2A /* ListByStoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListByStoreViewController.swift; sourceTree = "<group>"; };
 		CA9A7BF3246E2D4000B42D42 /* CompletedItemsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompletedItemsData.swift; sourceTree = "<group>"; };
 		CA9B39C32467E2E200385941 /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CategoryViewController.swift; path = Todoey/Controllers/CategoryViewController.swift; sourceTree = SOURCE_ROOT; };
@@ -80,6 +82,7 @@
 				CA9B39C32467E2E200385941 /* CategoryViewController.swift */,
 				EB2BE4FD239524DB00FB933B /* ToDoListViewController.swift */,
 				CA61E28E2469F24400B1BD2A /* ListByStoreViewController.swift */,
+				CA566F9A2470D82B00CDB03A /* PopOverShoppingItemForm.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -242,6 +245,7 @@
 				CA9A7BF4246E2D4000B42D42 /* CompletedItemsData.swift in Sources */,
 				CA9B39C42467E2E200385941 /* CategoryViewController.swift in Sources */,
 				CA9B39C62467E93B00385941 /* Data.swift in Sources */,
+				CA566F9B2470D82B00CDB03A /* PopOverShoppingItemForm.swift in Sources */,
 				EB2BE4FE239524DB00FB933B /* ToDoListViewController.swift in Sources */,
 				EB2BE4FA239524DB00FB933B /* AppDelegate.swift in Sources */,
 				CA61E28F2469F24400B1BD2A /* ListByStoreViewController.swift in Sources */,
